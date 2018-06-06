@@ -51,41 +51,31 @@ p{
     }
     .aside li{
         list-style-type: circle;
-
     }
     div{
         display: flex;
-        /* justify-content: space-between; */
         flex-wrap: wrap;
-
     }
     header{
-        /* display: flex; */
         width: 20%;
     }
     header ul{
         flex-direction: column;
-
     }
     header ul li{
         text-align: right;
         padding: 0.5em 0;
     }
-
     h1{
         font-size: 3em;
         text-align: right;
         padding: 1em 0;
     }
-
-    }
     main{
         width: 50%;
-        /* order: 1; */
     }
     aside{
         width: 20%;
-        /* order: 2;  */
     }
 
 }
